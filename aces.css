@@ -29,6 +29,11 @@
     background-color: black;
     background-color:rgb(11,132,69);
     color: white; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
 }
 
 #facebook{
