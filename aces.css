@@ -27,8 +27,19 @@
   footer
 {   margin-bottom:0px; 
     background-color: black;
+    background-color:rgb(11,132,69);
+    color: white; 
 }
-  
+
+#facebook{
+  height: 25px;
+}
+#instagram{
+  height: 15px;
+}
+#youtube{
+  height: 20px;
+}
   
   .nav-tabs li a {
     color: #777;
