@@ -1,0 +1,32 @@
+body
+{
+     width: 100%;
+    height: 100%;
+   background-color: rgb(12,132,68);
+}
+.jumbotron
+{   
+background-color: white;
+color: rgb(12,132,68)
+}
+p{
+  border: 1px solid rgb(12,132,68);
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+.imgme
+{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width:100%;
+ height: 80%;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ 
+}
+div
+{
+ 
+}
