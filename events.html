@@ -1,49 +1,111 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="events.css">
-    <title>Hello, world!</title>
-  </head>
-  <body>
- <div class="container">
+<head>
+  <!-- Required meta tags -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="aces.css">
+  
+  <link rel="shortcut icon" href="favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="events.css">
+  <title>ACES events</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <img src="Picture1.png" id="logo" alt="ACES logo">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+
+          <li class="tab"><a href="aces.html">HOME</a></li>
+          <li class="tab"><a href="#band">ABOUT</a></li>
+          <li class="tab" id="events"><a href="events.html">EVENTS</a></li>
+          <li class="tab" id="ACG"><a href="ACG.html">ACG</a></li>
+          <li class="tab" id='conference'><a href="conference.html">CONFERENCE</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">ACCOUNT
+              <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">SIGN IN</a></li>
+              <li><a href="#">SIGN UP</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
     <div class="container">
-    <div class="row">
-    <div class="col-md-6 col-sm-6 col-xs-6">
-        <div class="jumbotron container text-center">
-            <div>
-                <h1>ACES Workshops</h1>
-                <img src="ACESWorkshops.JPG">
-           <p>Most of us underestimate the importance of soft skills in our lives, and its great effect on our future career. In fact, they integrate our lives and perfect our future careers, they are our secret weapons to show our technicalities and work & that is what ACES Workshops is all about. ACES Workshops is our non-technical project which offers 5 workshops, each of 5 sessions followed by a case study helping you to improve your soft skills and apply what you have studied.</p>
-            </div>
-        </div>
-    </div>
+      <div class="row">
         <div class="col-md-6 col-sm-6 col-xs-6">
-            <div class="jumbotron container text-center">
-                <div>
-                    <h1>ACES Expo</h1>
-                    <img src="ACESExpo.JPG">
-                      <p>ACES Expo offers technically cored sessions followed by practical case studies in the plants or firms of each corporate.
-
-</p> 
-</div>
+          <div class="jumbotron container text-center">
+            <div>
+              <h1>ACES Workshops</h1>
+              <img src="ACESWorkshops.JPG" class="events">
+              <p class="info">Most of us underestimate the importance of soft skills in our lives, and its great effect on our future
+                career. In fact, they integrate our lives and perfect our future careers, they are our secret weapons to
+                show our technicalities and work & that is what ACES Workshops is all about. ACES Workshops is our
+                non-technical project which offers 5 workshops, each of 5 sessions followed by a case study helping you
+                to improve your soft skills and apply what you have studied.</p>
+            </div>
+          </div>
         </div>
+        <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="jumbotron container text-center">
+            <div>
+              <h1>ACES Expo</h1>
+              <img src="ACESExpo.JPG" class="events">
+              <p class="info">ACES Expo offers technically cored sessions followed by practical case studies in the plants or firms
+                of each corporate.
+
+              </p>
+            </div>
+          </div>
         </div>
 
-</div>
-</div>
+      </div>
     </div>
-    
+  </div>
+  <footer class="container-fluid text-center">
+    <a href="https://www.facebook.com/ACESEgypt/" target="_blank">
+      <img src="facebook1.png" id="facebook" class="social" alt="">
+    </a>
+    <a href="https://www.instagram.com/acesegypt/" target="_blank">
+      <img src="instagram.png" id="instagram" class="social" alt="">
+    </a>
+    <a href="https://www.youtube.com/user/aceschannel" target="_blank">
+      <img src="youtube.png" id="youtube" class="social" alt="">
+    </a>
+    <p>©2016-2020 ACES ALL RIGHTS RESERVED</p>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
 </html>
