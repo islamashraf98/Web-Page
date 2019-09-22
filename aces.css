@@ -33,7 +33,33 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    opacity: 0.9;
     
+}
+.btn
+{  color: gainsboro;
+    font-weight: bold;
+    background-color: rgb(11,132,69);
+    opacity: 0.9;
+    
+    
+}
+#SIGNIN{
+   
+    background-color:#f5f5f5cf;
+    border-style:inherit;
+    border-color: rgb(11,132,69);
+    width:  500px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1)
+}
+
+#SIGNUP{
+   
+    background-color:#f5f5f5cf;
+    border-style:inherit;
+    border-color: rgb(11,132,69);
+    width:  500px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1)
 }
 
 #facebook{
