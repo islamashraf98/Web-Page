@@ -15,7 +15,6 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<<<<<<< HEAD
     
 <nav class="navbar navbar-default navbar-fixed-top">
    
@@ -47,7 +46,6 @@
           </ul>
         </li>
       </ul>
-=======
 
   <nav class="navbar navbar-default navbar-fixed-top">
 
@@ -66,21 +64,20 @@
 
           <li class="tab"><a href="#myPage" >HOME</a></li>
           <li class="tab"><a href="#band" >ABOUT</a></li>
-          <li class="tab"><a href="" >EVENTS</a></li>
-          <li class="tab"  id="ACG"><a href="#acg" >ACG</a></li>
-          <li  class="tab"><a href="">CONFERENCE</a></li>
+          <li class="tab" id="events"><a href="events.html" >EVENTS</a></li>
+          <li class="tab"  id="ACG"><a href="ACG.html">ACG</a></li>
+          <li  class="tab" id='conference'><a href="conference.html">CONFERENCE</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">ACCOUNT
               <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">SIGN IN</a></li>
-              <li><a href="#">SIGN UP</a></li>
+              <li><a href="#SIGNIN">SIGN IN</a></li>
+              <li><a href="#SIGNUP">SIGN UP</a></li>
 
             </ul>
           </li>
         </ul>
       </div>
->>>>>>> 12d4783487de3e53c9cb251445cee884bb5a5101
     </div>
   </nav>
 
@@ -139,11 +136,10 @@
       engineering community, it was first founded in 2004 in Faculty of Engineering Ain Shams University, to be the
       first student activity in the governmental faculties in Egypt.</p>
     <hr>
-    <br>
+    
     <div class="row">
       <div class="col-sm-6">
         <p class="text-center"><strong>VISION</strong></p><br>
-
         <p>ACES has started its journey aiming to have a community of influential leaders
         </p>
 
@@ -154,11 +150,55 @@
         <p>Raising the capabilities of the engineering community through technical, nontechnical and personal approaches
           delivered through a real life exposure.
         </p>
+         
       </div>
 
     </div>
+      
   </div>
+   <hr>
+   
+    <div id="SIGNIN" class="container">
+       
+  <h3 class="text-center">SIGNIN</h3>
+        
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            <br>
+            <hr>
+              <input class="form-control" id="password" name="password" placeholder="password" type="text" required>
+    
+            <hr>
+        <br>
+         <button class="btn pull-right" type="submit">Sign In</button>
+        </div>
+     <hr>
+    <br>
 
+         
+       
+      
+    
+  <div id="SIGNUP" class="container">
+       
+  <h3 class="text-center">SIGNUP</h3>
+        
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            <br>
+            <hr>
+              <input class="form-control" id="password" name="password" placeholder="password" type="text" required>
+    
+            <hr>
+      
+        <br>
+      <input class="form-control" id="password" name="password" placeholder="confirm password" type="text" required>
+      <hr>
+      <br>
+         <button class="btn pull-right" type="submit">Sign Up</button>
+        </div>
+     <hr>
+    <br>
+   
+   
   <footer class="container-fluid text-center">
     <a href="https://www.facebook.com/ACESEgypt/" target="_blank">
       <img src="facebook1.png" id="facebook" class="social" alt="">
