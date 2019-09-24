@@ -4,7 +4,7 @@ body
     height: 100%;
    background-color: gainsboro;
 }
-#conference{
+#events{
   background-color: black;
   opacity: 0.7;
 }
@@ -13,28 +13,55 @@ body
 background-color: white;
 color: rgb(12,132,68)
 }
-p{
-  border: 1px solid rgb(12,132,68);
-  border-radius: 15px;
-  padding: 5px;
-  margin: 5px;
-}
-.imgme
+.events
 {
  display: block;
  margin-left: auto;
  margin-right: auto;
  width:100%;
- height: 80%;
- margin-top: 50px;
- margin-bottom: 50px;
- 
+ height: 100%;
+ margin-top: 20px;
+ margin-bottom: 20px;
 }
-div
-{
- 
+.info{
+  border: 1px solid rgb(12,132,68);
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
 }
-.navbar {
+
+footer
+{   margin-bottom:0px; 
+    background-color: black;
+    background-color:rgb(11,132,69);
+    color: white; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.8;
+    
+}
+
+#facebook{
+  height: 25px;
+}
+#instagram{
+  height: 15px;
+}
+#youtube{
+  height: 20px;
+}
+  
+  .nav-tabs li a {
+    color: #777;
+  }
+  #googleMap {
+    width: 100%;
+    height: 350px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }  
+  .navbar {
     font-family: Montserrat, sans-serif;
     margin-bottom: 0;
     background-color: rgb(11,132,69);
@@ -78,29 +105,8 @@ div
  #logo {
             height: 100px
         }
-        footer
-        {   margin-bottom:0px; 
-            background-color: black;
-            background-color:rgb(11,132,69);
-            color: white; 
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            opacity: 0.8;
-            
-        }
-#facebook{
-  height: 25px;
-}
-#instagram{
-  height: 15px;
-}
-#youtube{
-  height: 20px;
-}
 
-  .navbar {
+  /* .navbar {
     font-family: Montserrat, sans-serif;
     margin-bottom: 0;
     background-color: rgb(11,132,69);
@@ -125,4 +131,27 @@ div
 #myNavbar
 {
     margin-top: 30px;
+} */
+
+.jumbotron
+{   
+background-color: white;
+color: rgb(12,132,68)
+}
+p{
+  border: 1px solid rgb(12,132,68);
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+}
+.imgme
+{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width:100%;
+ height: 80%;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ 
 }

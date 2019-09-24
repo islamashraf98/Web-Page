@@ -1,6 +1,7 @@
  body {
     font: 400 15px/1.8 Lato, sans-serif;
     color: #777;
+    background-color: gainsboro;
   }
   h3, h4 {
     margin: 10px 0 30px 0;
@@ -52,7 +53,6 @@
     background-color: black;
     background-color:rgb(11,132,69);
     color: white; 
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
