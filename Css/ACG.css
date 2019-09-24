@@ -14,16 +14,15 @@ body{
     color: rgb(12,132,68);
     margin: 40px;
 }
-
-dl{
-    text-justify: auto;
-    margin-left: 10%;
-    margin-top: 20px;
-    font-size: 24px;
-    color: black;
+.text-center h1,h2
+{
+font-family:serif;
+    font-weight:bolder;
 }
-dd{
-    margin: 10px;
+#pricing img 
+{
+    height: 150px;
+    width: 150px;
 }
 
 .logos{
@@ -34,8 +33,7 @@ dd{
     display: flex;
     text-align: center;
 }
-.companies{
-}
+
 footer
 {   margin-bottom:0px; 
     background-color: black;

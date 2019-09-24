@@ -13,6 +13,10 @@ body
 background-color: white;
 color: rgb(12,132,68)
 }
+.text-center 
+{
+    font-family:serif;
+}
 .events
 {
  display: block;
